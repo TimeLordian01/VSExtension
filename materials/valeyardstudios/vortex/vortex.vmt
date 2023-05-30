@@ -1,0 +1,18 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "/dw_materials/vortexes/80s/scanner"
+	"$surfaceprop" "cardboard"
+	"$selfillum" 1
+	"$selfillummask" "/dw_materials/other/white"
+                "$nodecal" "0"
+
+		"Proxies"
+		{
+			"AnimatedTexture"
+				{
+					"animatedTextureVar" "$basetexture"
+					"animatedTextureFrameNumVar" "$frame"
+					"animatedTextureFrameRate" "15"
+				}
+		}
+}
