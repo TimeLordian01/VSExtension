@@ -34,6 +34,15 @@ Portal = {
 
 	Lights= {
 		{
+			color = Color(0,150,150),
+			warncolor=Color(255, 25, 25),
+			fov = 175,
+			distance = 100,
+			brightness = 0.05,
+			pos = Vector(0, 0, 150),
+			ang = Angle(90, 0, 0),
+		},
+		{
 			color = Color(0, 25, 50),
 			pos = Vector(0, 100, 100),
 			brightness = 1,
@@ -152,4 +161,85 @@ Teleport={
     }
  
 
+T.Interior.TextureSets = {
+	["normal"] = {
+		prefix = "valeyardstudios/int/main/",
+				{"main_floor", 0, "Floor"},
+
+				{"pillars", 0,"Pillars"},
+
+				{"roof", 0, "Roof"},
+
+				{"roundel1", 0, "Roundels"},
+
+				{"roundel2", 0, "Roundels"},
+
+				{"roundel3", 0, "Roundels"},
+
+				{"roundel4", 0, "Roundels"},
+
+				{"walls", 0, "Walls"},
+			},
+	["poweroff"] = {
+		prefix = "valeyardstudios/int/main/off/",
+				{"main_floor", 0, "Floor"},
+
+				{"pillars", 0, "Pillars"},
+
+				{"roof", 0, "Roof"},
+
+				{"roundel1", 0, "Roundels"},
+
+				{"roundel2", 0, "Roundels"},
+
+				{"roundel3", 0, "Roundels"},
+
+				{"roundel4", 0, "Roundels"},
+	},
+	["warning"] = {
+		prefix = "valeyardstudios/int/main/warning/",
+				{"pillars", 0, "Pillars"},
+
+				{"roundel1", 0, "Roundels"},
+
+				{"roundel2", 0, "Roundels"},
+
+				{"roundel3", 0, "Roundels"},
+
+				{"roundel4", 0, "Roundels"},
+	},
+}
+
+local TEXTURE_UPDATE_DATA_IDS = {
+	["power-state"] = true,
+	["health-warning"] = true,
+	["teleport"] = true,
+	["vortex"] = true,
+}
+
+T.CustomHooks = {
+	travel_textures = {
+		exthooks = {
+			["DataChanged"] = true,
+		},
+		func = function(ext, int, data_id, data_value)
+			if not TEXTURE_UPDATE_DATA_IDS[data_id] then return end
+
+			local power = ext:GetData("power-state")
+			local warning = ext:GetData("health-warning")
+			local teleport = ext:GetData("teleport")
+			local vortex = ext:GetData("vortex")
+
+			if not power then
+				int:ApplyTextureSet("poweroff")
+			else
+				if flight or teleport or vortex then
+					int:ApplyTextureSet(warning and "warning" or "normal")
+				else
+					int:ApplyTextureSet(warning and "warning" or "normal")
+				end
+			end
+		end,
+	},
+}
 TARDIS:AddInterior(T)

@@ -42,12 +42,22 @@ T.Interior = {
 
 	Light={
 		color=Color(0,150,150),
-		warncolor=Color(255, 50, 50),
+		warncolor=Color(255, 25, 25),
 		pos=Vector(0, 0, 50),
 		brightness=0.5
 	},
 
+
 	Lights= {
+		{
+			color = Color(0,150,150),
+			warncolor=Color(255, 25, 25),
+			fov = 175,
+			distance = 100,
+			brightness = 0.05,
+			pos = Vector(0, 0, 150),
+			ang = Angle(90, 0, 0),
+		},
 		{
 			color = Color(0, 25, 50),
 			pos = Vector(0, 100, 100),
