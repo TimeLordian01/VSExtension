@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "valeyardstudios/int/main/C_Dark_Glass_Red"
+	"$translucent" 1
+}

@@ -90,7 +90,11 @@ Portal = {
 			posoffset = Vector(23.3172460714704, 0, -48),
 			angoffset= Angle(0, 180, 0)
 		},
-		
+		console_generic_metal = {},
+		console_white_metal = {},
+		console_dark_metal = {},
+		console_glass = {},
+		console_light = {},
 		pillars = {},
 		roundel1 = {},
 		roundel2 = {},
@@ -179,6 +183,16 @@ T.Interior.TextureSets = {
 				{"roundel4", 0, "Roundels"},
 
 				{"walls", 0, "Walls"},
+
+				{"console_generic_metal", 0, "C_Generic_Metal"},
+
+				{"console_white_metal", 0, "C_White_Metal"},
+
+				{"console_dark_metal", 0, "C_Dark_Metal"},
+
+				{"console_glass", 0, "C_Dark_Glass"},
+
+				{"console_light", 0, "C_Light"},
 			},
 	["poweroff"] = {
 		prefix = "valeyardstudios/int/main/off/",
@@ -195,6 +209,14 @@ T.Interior.TextureSets = {
 				{"roundel3", 0, "Roundels"},
 
 				{"roundel4", 0, "Roundels"},
+
+				{"console_generic_metal", 0, "C_Generic_Metal"},
+
+				{"console_white_metal", 0, "C_White_Metal"},
+
+				{"console_dark_metal", 0, "C_Dark_Metal"},
+
+				{"console_light", 0, "C_Light"},
 	},
 	["warning"] = {
 		prefix = "valeyardstudios/int/main/warning/",
@@ -207,6 +229,14 @@ T.Interior.TextureSets = {
 				{"roundel3", 0, "Roundels"},
 
 				{"roundel4", 0, "Roundels"},
+
+				{"console_generic_metal", 0, "C_Generic_Metal"},
+
+				{"console_white_metal", 0, "C_White_Metal"},
+
+				{"console_dark_metal", 0, "C_Dark_Metal"},
+
+				{"console_light", 0, "C_Light"},
 	},
 }
 
