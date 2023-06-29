@@ -32,6 +32,17 @@ Portal = {
 		brightness=0.5
 	},
 
+		Screens = {
+        {
+            pos = Vector(-6.25, -18, 52),
+            ang = Angle(0, 0, 50),
+            width = 210,
+            height = 200,
+            visgui_rows = 2,
+            power_off_black = true
+        }
+    },
+    
 	Lights= {
 		{
 			color = Color(0,150,150),
@@ -216,6 +227,8 @@ T.Interior.TextureSets = {
 
 				{"console_dark_metal", 0, "C_Dark_Metal"},
 
+				{"console_glass", 0, "C_Dark_Glass"},
+
 				{"console_light", 0, "C_Light"},
 	},
 	["warning"] = {
@@ -235,6 +248,8 @@ T.Interior.TextureSets = {
 				{"console_white_metal", 0, "C_White_Metal"},
 
 				{"console_dark_metal", 0, "C_Dark_Metal"},
+
+				{"console_glass", 0, "C_Dark_Glass"},
 
 				{"console_light", 0, "C_Light"},
 	},
