@@ -135,10 +135,12 @@ T.Interior = {
 		roundel4 = {},
 		roof = {},
 		main_floor = {},
+		power_toggle = {},
 	},
 	Controls={
 		power_toggle = "power",
-	}
+		console_generic_metal = "thirdperson_careful"
+	},
 }
 
 T.Exterior={

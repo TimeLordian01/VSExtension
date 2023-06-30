@@ -94,6 +94,7 @@ Portal = {
 		}
 	},
 
+	Sequences = "default_sequences",
 	Parts={
 		console=false,
 		door={
@@ -112,8 +113,13 @@ Portal = {
 		roundel3 = {},
 		roundel4 = {},
 		roof = {},
-		main_floor = {}
-	}                    
+		main_floor = {},
+		power_toggle = {},
+	},
+	Controls={
+		power_toggle = "power",
+		console_generic_metal = "thirdperson_careful"
+	},
 }
 
 T.Exterior={
@@ -204,6 +210,8 @@ T.Interior.TextureSets = {
 				{"console_glass", 0, "C_Dark_Glass"},
 
 				{"console_light", 0, "C_Light"},
+
+				{"power_toggle", 0, "PowerSwitch"},
 			},
 	["poweroff"] = {
 		prefix = "valeyardstudios/int/main/off/",
@@ -230,6 +238,8 @@ T.Interior.TextureSets = {
 				{"console_glass", 0, "C_Dark_Glass"},
 
 				{"console_light", 0, "C_Light"},
+
+				{"power_toggle", 0, "PowerSwitch"},
 	},
 	["warning"] = {
 		prefix = "valeyardstudios/int/main/warning/",
@@ -252,6 +262,8 @@ T.Interior.TextureSets = {
 				{"console_glass", 0, "C_Dark_Glass"},
 
 				{"console_light", 0, "C_Light"},
+
+				{"power_toggle", 0, "PowerSwitch"},
 	},
 }
 
