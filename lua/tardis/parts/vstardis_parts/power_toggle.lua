@@ -5,5 +5,6 @@ PART.Model = "models/ValeyardStudios/controls/power_toggle.mdl"
 PART.AutoSetup = true
 PART.Animate = true
 PART.AnimateSpeed = 1
+PART.Control = "power"
 
 TARDIS:AddPart(PART,e)
