@@ -5,5 +5,6 @@ PART.Model = "models/valeyardstudios/controls/bluelevers1.mdl"
 PART.AutoSetup = true
 PART.UseTransparencyFix=true
 PART.Animate = true
+PART.Collision = true
 
 TARDIS:AddPart(PART)
