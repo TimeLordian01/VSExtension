@@ -136,10 +136,32 @@ T.Interior = {
 		roof = {},
 		main_floor = {},
 		power_toggle = {},
+		dest_keyboard = {},
+		switchsetbase = {},
+		bluelevers1 = {ang=Angle(0,-90,0)},
+		yellowlevers1 = {ang=Angle(0,-90,0)},
+		whitelevers1 = {ang=Angle(0,-90,0)},
+		redlevers1 = {ang=Angle(0,-90,0)},
 	},
 	Controls={
 		power_toggle = "power",
-		console_generic_metal = "thirdperson_careful"
+		console_generic_metal = "thirdperson_careful",
+		dest_keyboard = "coordinates",
+		yellowlevers1 = "door",
+		bluelevers1 = "doorlock",
+		redlevers1 = "cloak",
+		whitelevers1 = "isomorphic",
+		
+	},
+	PartTips = {
+		power_toggle = { pos = Vector(0,-33,100), },
+		dest_keyboard =  { pos = Vector(-1,-33,40), },
+		yellowlevers1 ={ pos = Vector(4,-33,40), },
+		bluelevers1 = {  pos = Vector(6,-39,40), },
+		redlevers1 = {   pos = Vector(10,-39,40), },
+		whitelevers1 = {  pos = Vector(12,-36,40),},
+		
+
 	},
 }
 
@@ -232,6 +254,8 @@ T.Interior.TextureSets = {
 				{"console_light", 0, "C_Light"},
 
 				{"power_toggle", 0, "PowerSwitch"},
+
+				{"switchsetbase", 0, "switchsetbase"},
 			},
 	["poweroff"] = {
 		prefix = "valeyardstudios/int/main/off/",
@@ -260,6 +284,8 @@ T.Interior.TextureSets = {
 				{"console_light", 0, "C_Light"},
 
 				{"power_toggle", 0, "PowerSwitch"},
+
+				{"switchsetbase", 0, "switchsetbase"},
 	},
 	["warning"] = {
 		prefix = "valeyardstudios/int/main/warning/",
@@ -284,6 +310,8 @@ T.Interior.TextureSets = {
 				{"console_light", 0, "C_Light"},
 
 				{"power_toggle", 0, "PowerSwitch"},
+
+				{"switchsetbase", 0, "switchsetbase"},
 	},
 }
 

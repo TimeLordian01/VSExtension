@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "valeyardstudios/int/controllights/switchlights_off"
+	"$translucent" 1
+}
