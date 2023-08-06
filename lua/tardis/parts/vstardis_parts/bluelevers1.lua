@@ -7,4 +7,16 @@ PART.UseTransparencyFix=true
 PART.Animate = true
 PART.Collision = true
 
+if SERVER then
+	function PART:Think()
+		local lockState = (self.exterior:GetData("locked",false) or false)
+		if lockState then
+			self:SetSkin( 0 )
+		else
+			self:SetSkin( 1 )
+		end
+	end
+end
+
+
 TARDIS:AddPart(PART)

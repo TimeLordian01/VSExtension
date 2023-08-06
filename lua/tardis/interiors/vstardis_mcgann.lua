@@ -134,7 +134,7 @@ Portal = {
 	},
 	PartTips = {
 		power_toggle = { pos = Vector(0,-33,100), },
-		dest_keyboard =  { pos = Vector(-1,-33,40), },
+		dest_keyboard =  { pos = Vector(-10,-33,40), },
 		yellowlevers1 ={ pos = Vector(4,-33,40), },
 		bluelevers1 = {  pos = Vector(6,-39,40), },
 		redlevers1 = {   pos = Vector(10,-39,40), },
@@ -174,6 +174,9 @@ Portal = {
 	},
 
 Parts={
+		vortex = {
+			model = "models/valeyardstudios/vortex/vortex.mdl",
+		},
 	door={
 		model="models/valeyardstudios/mcgann/96Doors.mdl",
 		posoffset=Vector(-24.194982528687, 0.025998115539551, -48.099998474121),
