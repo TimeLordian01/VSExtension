@@ -1,6 +1,0 @@
-"VertexlitGeneric"
-{
-	"$basetexture" "valeyardstudios/int/main/C_Dark_Glass"
-	"$translucent" 1
-	"$nocull" 1
-}

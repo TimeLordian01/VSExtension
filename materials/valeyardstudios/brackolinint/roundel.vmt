@@ -1,0 +1,17 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "valeyardstudios/brackolinint/roundel"
+	"$surfaceprop" "cardboard"
+	"$selfillum" 1
+                "$nodecal" "0"
+
+		"Proxies"
+		{
+			"AnimatedTexture"
+				{
+					"animatedTextureVar" "$basetexture"
+					"animatedTextureFrameNumVar" "$frame"
+					"animatedTextureFrameRate" "10"
+				}
+		}
+}
