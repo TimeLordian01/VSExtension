@@ -1,0 +1,11 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "valeyardstudios/dboxremaster/Window_Lit"
+	$detail  "valeyardstudios/dboxremaster/Window_Lit"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.5 0.5 0.5]"
+	"$envmapmask" "valeyardstudios/eboxremaster/ref_map"
+	$detailscale 1
+	$detailblendfactor 0.4
+	$detailblendmode 5
+}

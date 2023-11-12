@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "valeyardstudios/dboxremaster/Lamp_Lit"
+	"$translucent" 1
+}

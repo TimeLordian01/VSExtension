@@ -1,23 +1,9 @@
 {
-	"title": "The Valeyards TARDIS Rewrite Extension",
+	"title": "Valeyard Studios Exterior Chemeleon Pack",
 	"type": "vehicle",
 	"tags": 
 	[
-		"roleplay",
-		"fun"
-	],
-	 "ignore":
-    [
-        "*.md",
-        "*.txt",
-        "*.fgd",
-        "*.psd",
-        "*.vcproj",
-        "*.svn*",
-        "*.git*",
-        ".vscode*",
-        "*.sh",
-        "*.gma"
-    ]
-
+		"fun",
+		"roleplay"
+	]
 }

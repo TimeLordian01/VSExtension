@@ -1,0 +1,10 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "valeyardstudios/dboxremaster/UnlitPCB"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.7 0.7 0.7]"
+	"$envmapmask" "valeyardstudios/dboxremaster/UnlitPCB"
+	$detailscale 1
+	$detailblendfactor 1
+	$detailblendmode 1
+}

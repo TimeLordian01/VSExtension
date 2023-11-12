@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "valeyardstudios/dboxremaster/DoorSign"
+	"$nocull" 1
+}
