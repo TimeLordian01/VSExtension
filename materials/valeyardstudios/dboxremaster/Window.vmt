@@ -1,7 +1,0 @@
-"VertexlitGeneric"
-{
-	"$basetexture" "valeyardstudios/dboxremaster/Window"
-	"$envmap" "env_cubemap"
-	"$envmaptint" "[0.7 0.7 0.7]"
-	"$envmapmask" "valeyardstudios/dboxremaster/Window"
-}

@@ -1,8 +1,0 @@
-"VertexlitGeneric"
-{
-	"$basetexture" "valeyardstudios/tardise/eboxtexture_unlit"
-	$detail  "valeyardstudios/tardisd/eboxtextureunlitemission"
-	$detailscale 1
-	$detailblendfactor 1	
-	$detailblendmode 5
-}

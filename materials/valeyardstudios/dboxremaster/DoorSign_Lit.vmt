@@ -1,8 +1,0 @@
-"VertexlitGeneric"
-{
-	"$basetexture" "valeyardstudios/dboxremaster/DoorSign_Lit"
-	$detail  "valeyardstudios/dboxremaster/DoorSign_Lit"
-	$detailscale 1
-	$detailblendfactor 0.5
-	$detailblendmode 5
-}
